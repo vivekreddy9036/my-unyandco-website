@@ -109,10 +109,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-primary-foreground/60 text-sm mb-4 md:mb-0">
-            © 2024 CA Professional Services. All rights reserved.
-          </div>
-          <div className="flex items-center text-primary-foreground/60 text-sm">
-            Made with <Heart className="w-4 h-4 text-accent mx-1" /> for financial excellence
+            © 2025 CA Professional Services. All rights reserved.
           </div>
         </div>
       </div>
