@@ -9,17 +9,18 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-gradient-primary text-primary-foreground hover:shadow-elegant transition-smooth",
+        default: "bg-gradient-primary text-primary-foreground shadow-elegant hover:shadow-glow transition-spring hover:scale-105",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border border-primary/20 bg-card text-primary hover:bg-primary hover:text-primary-foreground shadow-card transition-smooth",
+          "border border-primary/20 bg-gradient-glass backdrop-blur-glass text-primary hover:bg-primary hover:text-primary-foreground shadow-glass transition-spring hover:scale-105",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-card transition-smooth",
-        ghost: "hover:bg-accent/10 hover:text-accent-foreground transition-smooth",
-        link: "text-primary underline-offset-4 hover:underline",
-        accent: "bg-gradient-accent text-accent-foreground hover:shadow-glow transition-smooth",
-        professional: "bg-card border border-border text-foreground hover:shadow-elegant transition-smooth",
+          "bg-gradient-card backdrop-blur-glass text-secondary-foreground hover:shadow-elegant transition-spring hover:scale-105",
+        ghost: "hover:bg-accent/10 hover:text-accent-foreground transition-spring hover:scale-105",
+        link: "text-primary underline-offset-4 hover:underline transition-smooth",
+        accent: "bg-gradient-accent text-accent-foreground shadow-glow hover:shadow-elegant transition-spring hover:scale-105 animate-glow",
+        professional: "bg-gradient-glass backdrop-blur-glass border border-glass-border text-foreground hover:shadow-elegant transition-spring hover:scale-105",
+        glass: "bg-gradient-glass backdrop-blur-glass border border-white/20 text-white hover:bg-white/20 transition-spring hover:scale-105",
       },
       size: {
         default: "h-10 px-4 py-2",

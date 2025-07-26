@@ -2,53 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Professional CA Portfolio Design System - All colors MUST be HSL */
+/* Premium Design System - Uny & Co. */
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 215 25% 15%;
+    --background: 220 27% 98%;
+    --foreground: 220 15% 12%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card: 220 20% 100%;
+    --card-foreground: 220 15% 12%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover: 220 20% 100%;
+    --popover-foreground: 220 15% 12%;
 
-    --primary: 215 85% 25%;
-    --primary-foreground: 0 0% 98%;
-    --primary-glow: 215 75% 35%;
+    --primary: 220 85% 15%;
+    --primary-foreground: 220 20% 98%;
+    --primary-glow: 220 75% 25%;
 
-    --secondary: 210 20% 95%;
-    --secondary-foreground: 215 25% 15%;
+    --secondary: 220 15% 96%;
+    --secondary-foreground: 220 15% 12%;
 
-    --muted: 210 20% 95%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 10% 45%;
 
-    --accent: 45 100% 65%;
-    --accent-foreground: 215 25% 15%;
-    --accent-glow: 45 95% 55%;
+    --accent: 45 85% 58%;
+    --accent-foreground: 220 15% 12%;
+    --accent-glow: 45 95% 68%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 20% 98%;
 
-    --border: 215 20% 88%;
-    --input: 215 20% 92%;
-    --ring: 215 85% 25%;
+    --border: 220 15% 88%;
+    --input: 220 15% 92%;
+    --ring: 220 85% 15%;
 
-    /* Professional gradients */
+    /* Premium gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-glow)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-glow)) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(0 0% 100% / 0.4));
+    --gradient-hero: linear-gradient(135deg, hsl(220 85% 15%) 0%, hsl(220 75% 25%) 50%, hsl(220 65% 35%) 100%);
+    --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    --gradient-card: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6));
 
-    /* Professional shadows */
-    --shadow-elegant: 0 4px 20px hsl(var(--primary) / 0.1);
-    --shadow-card: 0 2px 12px hsl(215 25% 15% / 0.08);
-    --shadow-glow: 0 0 30px hsl(var(--accent) / 0.3);
+    /* Premium shadows */
+    --shadow-elegant: 0 8px 32px rgba(31, 38, 135, 0.15);
+    --shadow-card: 0 4px 20px rgba(31, 38, 135, 0.08);
+    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.3);
+    --shadow-glass: 0 8px 32px rgba(31, 38, 135, 0.37);
+
+    /* Glass morphism */
+    --glass-bg: rgba(255, 255, 255, 0.15);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --glass-backdrop: blur(10px);
 
     /* Smooth transitions */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    --radius: 0.75rem;
 
     --radius: 0.5rem;
 
